@@ -1,0 +1,3 @@
+curl -i -X POST "$LAMBDA_URL" \
+-H "Content-Type: application/json" \
+-d '{"message": "You'\''ve got this!"}'
